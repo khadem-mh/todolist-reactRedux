@@ -24,7 +24,7 @@
 
 ## View of the project
 
-<img src="./public/Video/todolist.gif" width="450px"/>
+<img src="./public/Images/todolist.gif" width="450px"/>
 
 ## Getting Started
 
