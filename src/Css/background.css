@@ -1,0 +1,120 @@
+.shaps {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.shaps div {
+    position: absolute;
+    bottom: -50%;
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
+    background-color: rgba(135, 206, 235, .5);
+    margin-top: 10px;
+}
+
+.shaps div:nth-child(1) ,.shaps div:nth-child(24){
+    width: 45px;
+    height: 45px;
+    left: 15%;
+    animation: MoveAndSpin 8s linear infinite;
+}
+
+.shaps div:nth-child(2) ,.shaps div:nth-child(23){
+    width: 90px;
+    height: 90px;
+    left: 25%;
+    animation: MoveAndSpin 6s linear infinite;
+}
+
+.shaps div:nth-child(3) ,.shaps div:nth-child(22){
+    width: 30px;
+    height: 30px;
+    left: 65%;
+    animation: MoveAndSpin 8s linear infinite;
+}
+
+.shaps div:nth-child(4) ,.shaps div:nth-child(21){
+    width: 65px;
+    height: 65px;
+    left: 70%;
+    animation: MoveAndSpin 6s linear infinite;
+}
+
+.shaps div:nth-child(5) ,.shaps div:nth-child(20){
+    width: 45px;
+    height: 45px;
+    left: 45%;
+    animation: MoveAndSpin 20s linear infinite;
+}
+
+.shaps div:nth-child(6) ,.shaps div:nth-child(19){
+    width: 120px;
+    height: 120px;
+    left: 30%;
+    animation: MoveAndSpin 9s linear infinite;
+}
+
+.shaps div:nth-child(7) ,.shaps div:nth-child(18){
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    animation: MoveAndSpin 10s linear infinite;
+}
+
+.shaps div:nth-child(8) ,.shaps div:nth-child(17){
+    width: 72px;
+    height: 72px;
+    left: 60%;
+    animation: MoveAndSpin 5s linear infinite;
+}
+
+.shaps div:nth-child(9) ,.shaps div:nth-child(16){
+    width: 10px;
+    height: 10px;
+    left: 41%;
+    animation: MoveAndSpin 6s linear infinite;
+}
+
+.shaps div:nth-child(10) ,.shaps div:nth-child(15){
+    width: 145px;
+    height: 145px;
+    left: 88%;
+    animation: MoveAndSpin 5s linear infinite;
+}
+
+.shaps div:nth-child(11) ,.shaps div:nth-child(14){
+    width: 65px;
+    height: 65px;
+    left: 93%;
+    animation: MoveAndSpin 7s linear infinite;
+}
+
+.shaps div:nth-child(12) ,.shaps div:nth-child(13) {
+    width: 25px;
+    height: 25px;
+    left: 5%;
+    animation: MoveAndSpin 9s linear infinite;
+}
+
+
+/* Animation */
+@keyframes MoveAndSpin {
+    0% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-1200px) rotate(800deg);
+    }
+}
