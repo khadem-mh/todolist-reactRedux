@@ -1,4 +1,4 @@
-# <p align="center">Hi 👋 I'm an expert on React Js 👨‍💻 Next JS and FrontEnd Web Developer.</p>
+## <p align="center">Hi 👋 I'm an expert on React Js 👨‍💻 Next JS and FrontEnd Web Developer.</p>
 
 ## Description Project
 - Build a beautiful Todo-List with animated background in React Js and especially use the react-redux package with redux
